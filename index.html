@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="kain textile dari PT Innagroup Textile Manufacture adalah kain berwarna berkualitas tinggi yang cocok untuk pakaian dan tekstil rumah tangga. Lihat galeri kami untuk berbagai pilihan warna dan kualitas."
+        />
+        <meta
+            name="keywords"
+            content="Dyed Fabric, PT Innagroup Textile Manufacture, kain berwarna, tekstil, kain polyester, kain berkualitas"
+        />
+        <title>INTIM</title>
+        <link href="src/output.css" rel="stylesheet" />
+        <link
+            rel="shortcut icon"
+            href="asset/favicon.ico"
+            type="image/x-icon"
+        />
+    </head>
+    <body class="bg-white">
+        <!-- *Nav bar Section -->
+        <header
+            class="sticky top-4 inset-x-0 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full mt-4"
+        >
+            <nav
+                class="relative max-w-[66rem] w-full bg-white rounded-[28px] py-3 ps-5 pe-2 md:flex md:items-center md:justify-between md:py-0 mx-2 lg:mx-auto shadow-md shadow-slate-800"
+                aria-label=""
+            >
+                <div class="flex items-center justify-between">
+                    <!-- brand -->
+                    <a
+                        class="flex-none rounded-md text-xl inline-block font-semibold focus:outline-none focus:opacity-80"
+                        href="index.html"
+                        aria-label=""
+                    >
+                        <h1
+                            class="text-slate-900 font-semibold text-sm md:text-sm lg:text-lg"
+                        >
+                            INNAGROUP TEXTILE MANUFACTURE
+                        </h1>
+                    </a>
+                    <!-- End brand -->
+
+                    <div class="md:hidden">
+                        <button
+                            type="button"
+                            class="hs-collapse-toggle size-8 flex justify-center items-center text-sm font-semibold rounded-full bg-[#63F6BA] text-black disabled:opacity-50 disabled:pointer-events-none"
+                            data-hs-collapse="#navbar-collapse"
+                            aria-controls="navbar-collapse"
+                            aria-label="Toggle navigation"
+                        >
+                            <svg
+                                class="hs-collapse-open:hidden flex-shrink-0 size-4"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <line x1="3" x2="21" y1="6" y2="6" />
+                                <line x1="3" x2="21" y1="12" y2="12" />
+                                <line x1="3" x2="21" y1="18" y2="18" />
+                            </svg>
+                            <svg
+                                class="hs-collapse-open:block hidden flex-shrink-0 size-4"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <path d="M18 6 6 18" />
+                                <path d="m6 6 12 12" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Collapse -->
+                <div
+                    id="navbar-collapse"
+                    class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block"
+                >
+                    <div
+                        class="flex flex-col gap-y-4 gap-x-0 mt-5 md:flex-row md:items-center md:justify-end md:gap-y-0 md:gap-x-7 md:mt-0 md:ps-7"
+                    >
+                        <a
+                            class="text-sm text-[#01260C] font-semibold hover:text-neutral-300 md:py-4 focus:outline-none focus:text-neutral-300"
+                            href="#home"
+                            aria-current="page"
+                            >Home</a
+                        >
+                        <a
+                            class="text-sm text-[#01260C] font-semibold hover:text-neutral-300 md:py-4 focus:outline-none focus:text-neutral-300"
+                            href="src/pages/About Us.html"
+                            >About Us</a
+                        >
+                        <a
+                            class="text-sm text-[#01260C] font-semibold hover:text-neutral-300 md:py-4 focus:outline-none focus:text-neutral-300"
+                            href="src/pages/Product.html"
+                            >Product</a
+                        >
+
+                        <div
+                            class="hs-dropdown [--strategy:static] md:[--strategy:fixed] [--adaptive:none] md:py-4"
+                        >
+                            <button
+                                type="button"
+                                class="flex items-center w-full text-sm text-[#01260C] font-semibold hover:text-neutral-300 focus:outline-none focus:text-neutral-300"
+                            >
+                                News
+                                <svg
+                                    class="flex-shrink-0 ms-1 size-4"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <path d="m6 9 6 6 6-6" />
+                                </svg>
+                            </button>
+
+                            <div
+                                class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] md:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 md:w-48 hidden z-10 bg-white md:shadow-md rounded-lg p-2 before:absolute top-full before:-top-5 before:start-0 before:w-full before:h-5"
+                            >
+                                <a
+                                    class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-[#01260C] hover:text-neutral-300 font-medium focus:outline-none focus:text-neutral-300"
+                                    href="src/pages/Career.html"
+                                >
+                                    Career
+                                </a>
+                                <a
+                                    class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-[#01260C] hover:text-neutral-300 font-medium focus:outline-none focus:text-neutral-300"
+                                    href="src/pages/Gallery.html"
+                                >
+                                    Gallery
+                                </a>
+                                <a
+                                    class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-[#01260C] hover:text-neutral-300 font-medium focus:outline-none focus:text-neutral-300"
+                                    href="src/pages/Event.html"
+                                >
+                                    Event
+                                </a>
+                            </div>
+                        </div>
+
+                        <div>
+                            <a
+                                class="group inline-flex items-center gap-x-2 py-2 px-3 border border-transparent bg-[#C3FFED] dark:hover:bg-teal-900 dark:hover:text-teal-400 font-medium text-sm rounded-full focus:outline-none"
+                                href="mailto:headoffice@innagrouptm.com"
+                            >
+                                Contact us
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Collapse -->
+            </nav>
+        </header>
+        <!-- *Nav bar Section End-->
+        <!-- * Main content -->
+        <main id="home">
+            <div class="bg-white flex flex-col px-10">
+                <div class="self-center m-10 md:m-20">
+                    <img
+                        src="src/asset/logo.png"
+                        alt=""
+                        class="w-60 self-center md:w-80 lg:w-96"
+                    />
+                </div>
+                <div class="max-w-6xl mx-auto">
+                    <h1
+                        class="text-2xl font-semibold text-justify lg:text-5xl md:text-4xl"
+                    >
+                        Inovasi Tekstil Kualitas Global
+                    </h1>
+                    <p class="text-justify mt-4 md:text-base lg:text-lg">
+                        Produsen tekstil terpercaya sejak tahun 2017, dengan
+                        fokus pada kain Fabric (100% Polyester), rayon, dan
+                        katun. Komitmen terhadap kualitas dan daya saing serta
+                        terus berinovasi untuk meningkatkan kualitas produk,
+                        harga kompetitif, dan diversifikasi produk.
+                    </p>
+                </div>
+            </div>
+            <!-- ====== Services Section -->
+            <section class="pt-20 pb-10 lg:pt-[120px] lg:pb-[90px]">
+                <div class="container mx-auto">
+                    <div class="-mx-4 flex flex-wrap bg-white">
+                        <div class="w-full px-4 text-black bg-white">
+                            <div
+                                class="mx-auto mb-12 max-w-[510px] text-center lg:mb-20"
+                            >
+                                <span
+                                    class="text-primary mb-2 block text-lg font-semibold"
+                                >
+                                    Our Services
+                                </span>
+                                <h2
+                                    class="text-dark mb-3 text-3xl leading-[1.2] font-bold sm:text-4xl md:text-[40px]"
+                                >
+                                    What We Offer
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="-mx-4 flex flex-wrap bg-white">
+                        <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+                            <div
+                                class="mb-9 rounded-[20px] bg-white dark:bg-dark-2 p-10 shadow-2 hover:shadow-lg md:px-7 xl:px-10"
+                            >
+                                <h4
+                                    class="text-dark mb-[14px] text-2xl font-semibold"
+                                >
+                                    Fabric (100% Polyester)
+                                </h4>
+                                <p class="text-body-color text-justify">
+                                    Kami menggunakan bahan baku berkualitas
+                                    tinggi dan menerapkan proses produksi yang
+                                    ketat untuk memastikan produk yang
+                                    dihasilkan memiliki kualitas terbaik. Kain
+                                    Fabric (100% Polyester) kami terkenal dengan
+                                    ketahanannya yang tinggi, warnanya yang
+                                    cerah dan tahan luntur, serta teksturnya
+                                    yang halus dan nyaman dipakai.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+                            <div
+                                class="mb-9 rounded-[20px] bg-white dark:bg-dark-2 p-10 shadow-2 hover:shadow-lg md:px-7 xl:px-10"
+                            >
+                                <h4
+                                    class="text-dark mb-[14px] text-2xl font-semibold"
+                                >
+                                    Diversifikasi Produk
+                                </h4>
+                                <p
+                                    class="text-body-color dark:text-dark-6 text-justify"
+                                >
+                                    Selain kain Fabric (100% Polyester), PT
+                                    Innagroup Textile Manufacture juga
+                                    memproduksi kain rayon dan katun. Kain rayon
+                                    kami terkenal dengan kelembutannya,
+                                    kenyamanannya, dan daya serapnya yang
+                                    tinggi. Kain katun kami juga terkenal dengan
+                                    kekuatannya, ketahanannya, dan
+                                    breathability-nya yang baik.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+                            <div
+                                class="mb-9 rounded-[20px] bg-white dark:bg-dark-2 p-10 shadow-2 hover:shadow-lg md:px-7 xl:px-10"
+                            >
+                                <h4
+                                    class="text-dark mb-[14px] text-2xl font-semibold"
+                                >
+                                    Layanan Cetak Design
+                                </h4>
+                                <p
+                                    class="text-body-color dark:text-dark-6 text-justify"
+                                >
+                                    PT Innagroup Textile Manufacture menawarkan
+                                    layanan cetak design untuk membantu
+                                    pelanggan menciptakan kain yang sesuai
+                                    dengan kebutuhan dan keinginan mereka. Tim
+                                    desainer profesional kami akan bekerja sama
+                                    dengan Anda untuk memahami kebutuhan Anda
+                                    dan mengembangkan desain yang unik dan
+                                    sesuai dengan spesifikasi Anda.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+                            <div
+                                class="mb-9 rounded-[20px] bg-white dark:bg-dark-2 p-10 shadow-2 hover:shadow-lg md:px-7 xl:px-10"
+                            >
+                                <h4
+                                    class="text-dark mb-[14px] text-2xl font-semibold"
+                                >
+                                    Layanan Pengujian Kualitas
+                                </h4>
+                                <p
+                                    class="text-body-color dark:text-dark-6 text-justify"
+                                >
+                                    PT Innagroup Textile Manufacture menawarkan
+                                    layanan pengujian kualitas untuk memastikan
+                                    bahwa produk kami memenuhi standar kualitas
+                                    yang tinggi. Kami memiliki laboratorium
+                                    pengujian yang dilengkapi dengan peralatan
+                                    modern dan tim teknisi yang berpengalaman
+                                    untuk melakukan berbagai jenis pengujian,
+                                    seperti pengujian kekuatan tarik, warna, dan
+                                    ketahanan luntur.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+                            <div
+                                class="mb-9 rounded-[20px] bg-white dark:bg-dark-2 p-10 shadow-2 hover:shadow-lg md:px-7 xl:px-10"
+                            >
+                                <h4
+                                    class="text-dark mb-[14px] text-2xl font-semibold"
+                                >
+                                    Layanan Pengiriman yang Cepat dan Tepat
+                                    Waktu
+                                </h4>
+                                <p
+                                    class="text-body-color dark:text-dark-6 text-justify"
+                                >
+                                    PT Innagroup Textile Manufacture memahami
+                                    pentingnya pengiriman yang cepat dan tepat
+                                    waktu untuk bisnis Anda. Kami bekerja sama
+                                    dengan mitra logistik terpercaya untuk
+                                    memastikan bahwa produk Anda sampai ke
+                                    tangan Anda secepat dan seaman mungkin.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+                            <div
+                                class="mb-9 rounded-[20px] bg-white dark:bg-dark-2 p-10 shadow-2 hover:shadow-lg md:px-7 xl:px-10"
+                            >
+                                <h4
+                                    class="text-dark mb-[14px] text-2xl font-semibold"
+                                >
+                                    Layanan Konsumen yang Ramah dan Profesional
+                                </h4>
+                                <p
+                                    class="text-body-color dark:text-dark-6 text-justify"
+                                >
+                                    PT Innagroup Textile Manufacture berkomitmen
+                                    untuk memberikan layanan konsumen yang ramah
+                                    dan profesional. Tim customer service kami
+                                    yang berpengalaman siap membantu Anda dengan
+                                    pertanyaan atau masalah apa pun yang Anda
+                                    miliki. Kami dapat dihubungi melalui telepon
+                                    atau email
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ====== Services Section End -->
+            <!-- *Product -->
+            <div class="bg-white flex flex-col items-center py-10 md:py-20">
+                <h1
+                    class="text-xl font-semibold mb-6 md:mb-10 lg:mb-20 lg:text-5xl md:text-4xl"
+                >
+                    PRODUCT
+                </h1>
+                <div
+                    class="flex flex-col border lg:flex-row border-green-950 rounded-md shadow-lg shadow-slate-400"
+                >
+                    <a
+                        class="w-80 h-60 md:w-[35rem] md:h-72 lg:w-80 lg:h-80 xl:w-96 xl:h-80 bg-center bg-cover rounded-t-md"
+                        style="
+                            background-image: url('src/asset/dokumentasi/greige.jpg');
+                        "
+                        href="src/pages/Product.html"
+                    >
+                        <div
+                            class="inset-0 md:w-[35rem] md:h-72 lg:w-80 lg:h-80 xl:w-96 xl:h-80 hover:bg-gray-900/50 transition-all text-center text-4xl md:text-5xl text-white h-60 w-80 flex justify-center flex-col items-center rounded-t-md"
+                        >
+                            <h1 class="m-4 font-semibold">GREIGE</h1>
+                            <p class="font-thin text-xl md:text-2xl">WEAVING</p>
+                        </div>
+                    </a>
+                    <a
+                        class="w-80 h-60 md:w-[35rem] md:h-72 lg:w-80 lg:h-80 xl:w-96 xl:h-80 bg-center bg-cover"
+                        style="
+                            background-image: url('src/asset/Product/galery9.jpg');
+                        "
+                        href="src/pages/Product.html"
+                    >
+                        <div
+                            class="inset-0 md:w-[35rem] md:h-72 lg:w-80 lg:h-80 xl:w-96 xl:h-80 hover:bg-gray-900/80 transition-all text-center text-4xl md:text-5xl text-white h-60 w-80 flex justify-center flex-col items-center"
+                        >
+                            <h1 class="m-4 font-semibold">FINISHING</h1>
+                            <p class="font-thin text-xl md:text-2xl">
+                                PRINTED FABRIC
+                            </p>
+                        </div>
+                    </a>
+                    <a
+                        class="w-80 h-60 md:w-[35rem] md:h-72 lg:w-80 lg:h-80 xl:w-96 xl:h-80 bg-center bg-cover rounded-b-md"
+                        style="
+                            background-image: url('src/asset/dokumentasi/dyed\ kain.jpg');
+                        "
+                        href="src/pages/Product.html"
+                    >
+                        <div
+                            class="inset-0 md:w-[35rem] md:h-72 lg:w-80 lg:h-80 xl:w-96 xl:h-80 hover:bg-gray-900/50 transition-all text-center text-4xl md:text-5xl text-white h-60 w-80 flex justify-center flex-col items-center rounded-b-md"
+                        >
+                            <h1 class="m-4 font-semibold">DYEING</h1>
+                            <p class="font-thin text-xl md:text-2xl">
+                                DYED FABRIC
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- *Product End-->
+            <!-- Masonry Cards -->
+            <h1
+                class="text-center mx-7 text-xl font-semibold mb-4 md:mb-6 lg:text-5xl md:text-4xl"
+            >
+                Latest Work
+            </h1>
+            <div class="max-w-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+                <!-- Grid -->
+                <div class="grid sm:grid-cols-12 gap-6">
+                    <div
+                        class="sm:self-end col-span-12 sm:col-span-7 md:col-span-8 lg:col-span-5 lg:col-start-3"
+                    >
+                        <!-- Card -->
+                        <div
+                            class="group relative block rounded-xl overflow-hidden"
+                        >
+                            <div
+                                class="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden"
+                            >
+                                <img
+                                    class="group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover"
+                                    src="src/asset/Product/produk 1.jpg"
+                                    alt="Image Description"
+                                />
+                            </div>
+                            <div
+                                class="absolute bottom-0 start-0 end-0 p-2 sm:p-4"
+                            >
+                                <div
+                                    class="text-sm font-bold text-gray-800 rounded-lg bg-white p-4 md:text-xl dark:bg-neutral-800 dark:text-neutral-200"
+                                >
+                                    Panda Family
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Card -->
+                    </div>
+                    <!-- End Col -->
+
+                    <div
+                        class="sm:self-end col-span-12 sm:col-span-5 md:col-span-4 lg:col-span-3"
+                    >
+                        <!-- Card -->
+                        <div
+                            class="group relative block rounded-xl overflow-hidden"
+                        >
+                            <div
+                                class="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden"
+                            >
+                                <img
+                                    class="group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover"
+                                    src="src/asset/Product/produk 2.jpg"
+                                    alt="Image Description"
+                                />
+                            </div>
+                            <div
+                                class="absolute bottom-0 start-0 end-0 p-2 sm:p-4"
+                            >
+                                <div
+                                    class="text-sm font-bold text-gray-800 rounded-lg bg-white p-4 md:text-xl dark:bg-neutral-800 dark:text-neutral-200"
+                                >
+                                    Mini Avanger
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Card -->
+                    </div>
+                    <!-- End Col -->
+
+                    <div class="col-span-12 md:col-span-4">
+                        <!-- Card -->
+                        <div
+                            class="group relative block rounded-xl overflow-hidden"
+                        >
+                            <div
+                                class="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden"
+                            >
+                                <img
+                                    class="group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover"
+                                    src="src/asset/Product/Bunga Dendy.jpg"
+                                    alt="Bunga Dendy"
+                                />
+                            </div>
+                            <div
+                                class="absolute bottom-0 start-0 end-0 p-2 sm:p-4"
+                            >
+                                <div
+                                    class="text-sm font-bold text-gray-800 rounded-lg bg-white p-4 md:text-xl dark:bg-neutral-800 dark:text-neutral-200"
+                                >
+                                    Bunga Dendy
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Card -->
+                    </div>
+                    <!-- End Col -->
+
+                    <div class="col-span-12 sm:col-span-6 md:col-span-4">
+                        <!-- Card -->
+                        <div
+                            class="group relative block rounded-xl overflow-hidden"
+                        >
+                            <div
+                                class="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden"
+                            >
+                                <img
+                                    class="group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover"
+                                    src="src/asset/Product/Kotak Keramik.jpg"
+                                    alt="Kotak Keramik"
+                                />
+                            </div>
+                            <div
+                                class="absolute bottom-0 start-0 end-0 p-2 sm:p-4"
+                            >
+                                <div
+                                    class="text-sm font-bold text-gray-800 rounded-lg bg-white p-4 md:text-xl dark:bg-neutral-800 dark:text-neutral-200"
+                                >
+                                    Kotak Keramik
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Card -->
+                    </div>
+                    <!-- End Col -->
+
+                    <div class="col-span-12 sm:col-span-6 md:col-span-4">
+                        <!-- Card -->
+                        <div
+                            class="group relative block rounded-xl overflow-hidden"
+                        >
+                            <div
+                                class="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden"
+                            >
+                                <img
+                                    class="group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover"
+                                    src="src/asset/Product/Salur.jpg"
+                                    alt="Salur"
+                                />
+                            </div>
+                            <div
+                                class="absolute bottom-0 start-0 end-0 p-2 sm:p-4"
+                            >
+                                <div
+                                    class="text-sm font-bold text-gray-800 rounded-lg bg-white p-4 md:text-xl dark:bg-neutral-800 dark:text-neutral-200"
+                                >
+                                    Salur
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Card -->
+                    </div>
+                    <!-- End Col -->
+                </div>
+                <!-- End Grid -->
+            </div>
+            <!-- End Masonry Cards -->
+            <!-- *Contact us -->
+            <h1
+                class="text-xl md:mb-6 lg:text-5xl md:text-4xl font-semibold text-center"
+            >
+                CONTACTS
+            </h1>
+            <div
+                class="bg-white flex flex-col w-full items-center justify-center lg:flex-row"
+            >
+                <div class="mt-8">
+                    <h1 class="font-semibold md:text-xl border-b-2">
+                        Location
+                    </h1>
+                    <iframe
+                        class="w-80 rounded-lg mt-6 sm:w-96 md:w-[30rem] h-60"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.0484256819536!2d110.66381517428037!3d-7.6779432923389805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a40e00bb97d67%3A0x9c39434af701fedb!2sPT%20INNAGROUP%20TEXTILE%20MANUFACTURE!5e0!3m2!1sid!2sid!4v1716531222342!5m2!1sid!2sid"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                </div>
+                <div class="m-8">
+                    <div>
+                        <h1 class="font-semibold md:text-xl mt-6 border-b-2">
+                            Our Contacts
+                        </h1>
+                        <div class="mt-4 md:w-[30rem] md:text-base">
+                            <label for="">Email</label>
+                            <p class="mb-5">headoffice@innagrouptm.com</p>
+                            <label for="">Call Us</label>
+                            <p>+62-812-2612-2611</p>
+                            <p>(0272) 5533 488</p>
+                        </div>
+                        <div>
+                            <h1
+                                class="font-semibold md:text-xl mt-6 border-b-2"
+                            >
+                                Head Office
+                            </h1>
+                            <p class="mt-4">
+                                Jl. Karangwuni- Dlimas, Dlimas, Ceper, Klaten,
+                                Jawa Tengah, Indonesia
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- *Customers End -->
+        </main>
+        <!-- * Main content End-->
+        <footer
+            class="mt-auto w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto bg-slate-900"
+        >
+            <div class="grid grid-cols-1 md:grid-cols-3 items-center gap-5">
+                <div>
+                    <a
+                        class="flex-none text-base font-semibold text-white"
+                        href="#"
+                        aria-label="Brand"
+                        >INNAGROUP TEXTILE MANUFACTURE</a
+                    >
+                </div>
+                <p class="text-center text-sm text-slate-100">
+                    © 2019 PT.INNAGROUP TEXTILE MANUFACTURE All rights reserved.
+                </p>
+            </div>
+            <!-- End Grid -->
+        </footer>
+        <script src="./node_modules/preline/dist/preline.js"></script>
+    </body>
+</html>
